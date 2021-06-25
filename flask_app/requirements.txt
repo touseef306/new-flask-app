@@ -1,7 +1,0 @@
-flask
-tweepy
-pandas
-numpy
-gunicorn
-xgboost
-sklearn
