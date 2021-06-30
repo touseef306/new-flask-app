@@ -48,6 +48,7 @@ def get_user_features(screen_name):
     try:
         # Get user information from screen name
         user = api.get_user(screen_name)
+        return user
 
         # account features to return for predicton
         account_age_days = (datetime.now() - user.created_at).days
