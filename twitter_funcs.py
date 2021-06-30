@@ -11,11 +11,18 @@ import re
 import time
 
 
+# twitter_keys = {
+#     'consumer_key': os.environ.get('consumer_key', None),
+#     'consumer_secret': os.environ.get('consumer_secret', None),
+#     'access_token_key': os.environ.get('access_token_key', None),
+#     'access_token_secret': os.environ.get('access_token_secret', None)
+# }
+
 twitter_keys = {
-    'consumer_key': os.environ.get('consumer_key', None),
-    'consumer_secret': os.environ.get('consumer_secret', None),
-    'access_token_key': os.environ.get('access_token_key', None),
-    'access_token_secret': os.environ.get('access_token_secret', None)
+    'consumer_key': "vNMU4QXi8HQsDXMpC3rQm2uVE",
+    'consumer_secret': "AAAAAAAAAAAAAAAAAAAAAFTJRAEAAAAAejcg5XMxecfNvnLt5odVOvbXyOM%3Dc0gLJN40RYDCimDCvJzx0RIH3iGn5AibfOS83czeVaRqPrMlDv",
+    'access_token_key': "442902206-Pg1CXrmSrG1tUJ0Lwc08HxeviZF9ge9rQHwyveqL",
+    'access_token_secret': "DAL9srFCGtcKUkQk79lWz7ScLOUHuzucckLfme0PU25jH"
 }
 
 # Get fully-trained XGBoostClassifier model
