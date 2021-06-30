@@ -1,1 +1,1 @@
-web: gunicorn twitter-bot-or-human:app
+web: gunicorn botornot_app:app
